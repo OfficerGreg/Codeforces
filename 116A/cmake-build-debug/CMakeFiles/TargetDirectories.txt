@@ -1,0 +1,3 @@
+C:/Users/Jakub/Desktop/Codeforces/116A/cmake-build-debug/CMakeFiles/116A.dir
+C:/Users/Jakub/Desktop/Codeforces/116A/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jakub/Desktop/Codeforces/116A/cmake-build-debug/CMakeFiles/rebuild_cache.dir
