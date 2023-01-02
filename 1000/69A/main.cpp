@@ -19,7 +19,7 @@ int main() {
         x[i] = a;
         y[i] = b;
         z[i] = c;
-        
+
         sum_x = sum_x + x[i];
         sum_y = sum_y + y[i];
         sum_z = sum_z + z[i];
