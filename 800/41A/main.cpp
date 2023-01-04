@@ -9,8 +9,6 @@ int main(){
 
 	cin >> s >> t;
 
-
-
  	int n = t.length();
 
 	for (int i = 0; i < n / 2; i++)
