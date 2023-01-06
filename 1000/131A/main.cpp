@@ -4,17 +4,25 @@ using namespace std;
 
 int main(){
 
-	string s;
-	cin >> s;
+    string s;
+    char u;
+    bool c = true;
+    cin >> s;
 
-	for(int i = 0; i < s.length(); i++){
-		if(s[0] > 90){
-			if(s[i]	<= 90){
-				//TODO
-			}
-		}
-	}
+    for(int i = 1; i < s.length(); i++)
+        if(islower(s[i]))
+            c = false;
 
-
-	return 0;
+    if(c == true){
+        for(int j = 0; j < s.length(); j++){
+            if(islower(s[j]))
+                u = toupper(s[j]);
+            else
+                u = tolower(s[j]);
+            cout << u;
+        }
+    }
+    else
+        cout << s;
+    return 0;
 }
